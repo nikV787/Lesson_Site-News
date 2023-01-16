@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: url(../img/bg.jpg) bottom no-repeat;
+    background-size: cover;
+}
+
+.header__title {
+    color: #ffebcc;
+    font-size: 4rem;
+}
