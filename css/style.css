@@ -20,3 +20,31 @@ body {
     color: #ffebcc;
     font-size: 4rem;
 }
+
+.footer {
+    padding: 20px 0 60px;
+    text-align: center;
+}
+
+.lower-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    list-style-type: none;
+}
+
+.lower-menu__item > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(108, 117, 125);
+    font-family: 'Times New Roman', Times, serif;
+}
