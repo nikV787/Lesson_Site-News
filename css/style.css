@@ -66,6 +66,17 @@ body {
     margin: 0 auto 32px;
 }
 
+.news-list__item:nth-child(-n + 2) .art__title::before {
+    content: "new";
+    margin-right: 8px;
+    font-size: 13px;
+    color: #eca63d;
+}
+
+.news-list__item:nth-child(even) .art {
+    background-color: rgb(245, 245, 245);
+}
+
 .art {
     width: 768px;
     margin: 0 auto;
